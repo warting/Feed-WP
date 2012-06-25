@@ -1,0 +1,719 @@
+android_apk@CHARSET "UTF-8";
+
+
+/* HTML5 FIX
+   - FEED WRAPPER
+   -- DEFAULT VAULE
+   -- HEADER
+   -- TOP NAVIGATION
+   -- LEFT NAVIGATION
+   -- CONTENT
+   --- YOUR APPS
+   --- GENERAL SETTINGS
+   --- IOS/ANDROID
+   --- ANDROID
+   --- IOS
+   - SPRITE
+   - CLASSES
+ -------------------------------------------------------------- */
+
+
+
+/* HTML5 FIX
+ -------------------------------------------------------------- */
+article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent;margin:0;padding:0;}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block;}nav{list-style:none;}
+
+
+
+/* FEED WRAPPER => WRAPPER
+ -------------------------------------------------------------- */
+#feed_wrapper{
+	margin: 15px;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid #A4BBCD;
+    overflow: hidden;
+	background: #eee;
+	min-width: 900px;
+}
+
+
+
+/* FEED WRAPPER => DEFAULT VALUES
+ -------------------------------------------------------------- */
+#feed_wrapper a{
+    text-decoration: none;
+}
+
+#feed_wrapper nav,
+#feed_wrapper header{
+	-moz-user-select: none;
+	user-select: none;
+}
+
+
+
+/* FEED WRAPPER => HEADER
+ -------------------------------------------------------------- */
+#feed_header {
+	background: #eeeeee; /* old browsers */
+	background: -moz-linear-gradient(top, #eeeeee 0%, #cccccc 100%); /* firefox */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#eeeeee), color-stop(100%,#cccccc)); /* webkit */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc',GradientType=0 ); /* ie */
+	padding: 15px;
+	border-bottom: 1px solid;
+	height: 37px;
+}
+
+#feed_header a{
+	float: left;
+}
+		
+#feed_header p{
+	float: right;
+	color: #4E4E4E;
+	text-shadow: 1px 1px 0 #FFF;
+	text-decoration: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 8px;
+}
+	
+	
+
+/* FEED WRAPPER => TOP NAVIGATION
+ -------------------------------------------------------------- */
+#feed_top_nav{
+	padding: 5px;
+	border-bottom: 1px solid;
+}
+
+#feed_top_nav a{
+    display: inline-table;
+    margin-right: 5px;
+}
+
+#feed_top_nav a:before{
+	margin: 2px;
+}
+	
+
+
+/* FEED WRAPPER => LEFT NAVIGATION
+ -------------------------------------------------------------- */
+#feed_left_nav{
+	float: left;
+	width: 161px;
+}
+
+#feed_left_nav a{
+	display: block;
+	padding: 5px;
+    border-bottom: 1px solid #D8D8D8;
+    border-right: 1px solid #D8D8D8;
+}
+
+#feed_left_nav a:hover,
+#feed_left_nav .active{
+	background-color: white;
+	padding-right: 6px;
+	border-right: 0 none;
+}
+	
+	
+
+/* FEED WRAPPER => CONTENT
+ -------------------------------------------------------------- */
+#feed_content{
+	border-left: 1px solid #D8D8D8;
+	background: url("../images/preloader.gif") no-repeat scroll center center white;
+	margin-left: 160px;
+	padding: 5px 10px;
+	min-height: 195px;
+}
+
+#feed_content > div{
+	background-color: #fff;
+	min-height: 150px;
+}
+
+#feed_content > .feed_notif{
+	min-height: 0;
+	background-color: #fffbcc;
+	margin: -5px auto 0;
+	width: 60%;
+	display: none;
+}
+
+/* FEED WRAPPER => CONTENT => YOUR APPS
+ -------------------------------------------------------------- */
+#feed_your_apps a{
+	display: inline-block;
+	width: 35px;
+	text-align: right;	
+}
+
+#feed_your_apps fieldset{
+	width: 45%;
+	border-radius: 7px;
+	border: 1px solid;
+	float: left;
+	padding: 10px;
+}
+
+#feed_your_apps .feed_ApkTimer,
+#feed_your_apps .button-secondary{
+	display: none;
+}
+
+#feed_your_apps .has_pending_build .feed_ApkTimer{
+	display: block;
+}
+
+#feed_your_apps .has_pending_build .button-secondary{
+	display: inline-block;
+}
+
+#feed_your_apps .has_pending_build .feed_msg,
+#feed_your_apps .has_pending_build .button-primary{
+	display: none;
+}
+
+
+
+/* FEED WRAPPER => CONTENT => GENERAL SETTINGS
+ -------------------------------------------------------------- */
+#feed_settings h1{
+	background: #ddd;
+	padding: 5px;
+}
+
+#feed_settings h4{
+	border-bottom: 1px solid #ddd;
+	margin-bottom: 10px; 
+}
+
+#feed_settings textarea{
+	height: 100px;
+}
+
+#feed_settings textarea,
+#feed_settings input[type="text"]{
+	width: 400px; 
+}
+
+
+
+/* FEED WRAPPER => CONTENT => IOS/ANDROID
+ -------------------------------------------------------------- */
+#feed_ios .feed_phone,
+#feed_android .feed_phone{
+	height: 597px;
+	width: 310px;
+	margin: 0 5px;
+	background: url("../images/Nexus_One.png") center 0 no-repeat;
+	position: relative;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+/* Screens */
+#feed_wrapper .feed_screen{
+	background: #000 url(../images/android_bar_empty.png) repeat-x;
+	height: 400px;
+	width: 240px;
+	position: relative;
+	top: 75px;
+	margin: 0pt auto;
+	overflow: hidden;
+}
+
+
+#feed_wrapper .feed_screen > div{
+	display: none;
+	height: 100%;
+}
+
+/* Start screen */
+#feed_wrapper div.feed_page_apps,
+#feed_wrapper .feed_tools > div.feed_page_apps{
+	display: block;
+}
+
+#feed_android form > div,
+#feed_ios form > div{
+	float: left;
+}
+
+
+
+/* FEED WRAPPER => CONTENT => ANDROID
+ -------------------------------------------------------------- */
+#feed_android #phone{
+	height: 597px;
+	width: 690px;
+	margin: 0 auto;
+	background: url("../images/Nexus_One.png") center 0 no-repeat;
+	position: relative;
+}
+
+#feed_android .data p{
+	padding: 0 10px;
+}
+
+/* Start screen */
+#feed_android p[data-name=app_name]{
+	color: #fff;
+}
+
+#feed_android p[data-name=new_items]{
+	margin: 0 5px;
+	padding-bottom: 15px;
+}
+
+#feed_android .feed_page_apps .small_icon{
+	width: 15px;
+	height: 15px;
+	float: left;
+	margin: 1px 3px;
+}
+
+#feed_android .data{
+	border: 2px solid;
+	border-radius: 5px;
+	margin: 8px;
+}
+
+#feed_android div[data-name=mybtn_normal]{
+	border-radius: 10px;
+	border-width: 6px;
+	display: block;
+	margin: 6px;
+	opacity: 1;
+	padding: 11px;
+	text-align: center;
+}
+	
+#feed_android .feed_page_article .data li{
+	padding: 3px;
+	font-weight: bold;
+}
+
+#feed_android .feed_page_article .data li time,
+#feed_android .feed_page_article .data li.feed_read{
+	font-weight: normal;
+}
+
+#feed_android .feed_page_article .data li:not(:last-child){
+	border-bottom: 2px solid;
+}
+
+#feed_android .feed_page_article .data img{
+	width: 32px;
+	height: 32px;
+	vertical-align: top;
+	float: left;
+	padding-right: 5px;
+}
+
+#feed_android .feed_page_article .data time{
+	display: block;
+}
+
+#feed_android .feed_screen .feed_page_setting{
+	color: #fff;
+}
+
+#feed_android .feed_screen .feed_page_setting h1{
+	background: #7db9e8; /* Old browsers */
+	background: -moz-linear-gradient(top, #7db9e8 0%, #207cca 49%, #2989d8 50%, #1e5799 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#7db9e8), color-stop(49%,#207cca), color-stop(50%,#2989d8), color-stop(100%,#1e5799)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top, #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%); /* Opera11.10+ */
+	background: -ms-linear-gradient(top, #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%); /* IE10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7db9e8', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+	background: linear-gradient(top, #7db9e8 0%,#207cca 49%,#2989d8 50%,#1e5799 100%); /* W3C */
+
+	font-size: 12px;
+	margin: 0;
+}
+
+#feed_android .feed_screen .feed_page_setting h1:last-child{
+	background: #ccc;
+	border-top: 1px solid #000;
+}
+
+#feed_android .feed_page_setting ul li{
+	padding: 0;
+	margin: 7px 3px;
+}
+
+#feed_android .feed_page_setting h2{
+	margin: 0;
+	font-size: 17px;
+}
+
+#feed_android .feed_screen .feed_menu{
+	background-color: #fff;
+	bottom: 0;
+	position: absolute;
+	width: 100%;
+	display: none;
+}
+
+#feed_android table{
+	border-collapse:collapse;
+}
+
+#feed_android table,
+#feed_android td,
+#feed_android th{
+	border:1px solid black;
+	height: 40px;
+	width: 50%;
+}
+
+#feed_android .feed_page_splash P{
+	text-align: center;
+	margin-top: 175px;
+	font-weight: bold;
+	display: block;
+}
+
+
+/* FEED WRAPPER => CONTENT => IOS
+ -------------------------------------------------------------- */
+#feed_ios .feed_phone{
+	background-image: url(../images/iphone.png);
+	height: 665px;
+	width: 300px;
+	margin: 0 5px;
+}
+
+#feed_ios .feed_screen{
+	background: url("../images/stripes.png") repeat scroll 0 0 #C5CCD3;
+	border: solid black;
+	border-width: 0px 1px 1px;
+	height: 364px;
+	left: 1px;
+	top: 119px;
+	width: 251px;
+}
+
+
+/* FEED WRAPPER => CONTENT => IOS => SCREENS
+ -------------------------------------------------------------- */
+
+/* should go under ios/android */
+#feed_ios .feed_screen{
+	overflow: hidden;
+}
+
+#feed_ios .feed_screen > div{
+	background: url(../images/dock.png) 0 101% no-repeat transparent;
+	height: 100%;
+}
+
+
+#feed_ios .feed_phone .feed_page_apps{
+	background: url("../images/iphone-start.png") no-repeat black; 
+}
+
+#feed_ios .feed_page_apps p,
+#feed_ios .feed_page_apps img{
+	border-radius: 7px;
+	height: 45px;
+	left: 74px;
+	position: relative;
+	top: 219px;
+	width: 45px;
+}
+
+#feed_ios .feed_page_apps p{
+	color: #fff;
+	font-size: 8.3px;
+	text-align: center;
+	top: 212px;
+}
+
+
+
+/* Article view */
+#feed_ios .feed_page_article .data img{
+	padding: 4px;
+	vertical-align: middle;
+	float: left;
+}
+
+#feed_ios .feed_page_article .data li{
+	background: url("../images/chevron.png") no-repeat right center;
+	background-size: 16px;
+}
+
+#feed_ios .feed_page_article .feed_read a{
+	font-weight: normal;
+}
+
+#feed_ios .feed_page_article a{
+	color: #000;
+	font-weight: bold;
+}
+
+/* Home */
+#feed_ios .read_button{
+	-moz-border-image: url(../images/whiteButton.png) 0 14 0 14;
+	-webkit-border-image: url(../images/whiteButton.png) 0 14 0 14;
+	border-image: url(../images/whiteButton.png) 0 14 0 14;
+	border-width: 0 14px;
+	color: #000;
+	display: block;
+	font: bold 16px/39px Helvetica;
+	margin: 0 10px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+}
+
+/* Setting & about header */
+#feed_ios .feed_header{
+	background: #6D85A3 url(../images/bgHeader.png) repeat-x top;
+	border-top: 1px solid #CDD5DF;
+	border-bottom: 1px solid #2E3744;
+	margin: 0 0 0 -10px;
+	min-height: 44px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#feed_ios .feed_header h1{
+	color: white;
+	font: bold 18px/30px Helvetica;
+	text-shadow: #2D3642 0 -1px 0;
+	text-align: center;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 49%;
+	padding: 5px 0;
+	margin: 2px 0 0 -24%;
+	position: absolute;
+	top: 0;
+	left: 50%;
+}
+
+#feed_ios .feed_header a {
+	background: none;
+	-webkit-border-image: url(../images/backButton.png) 0 8 0 14;
+	-moz-border-image: url(../images/backButton.png) 0 8 0 14;
+	border-image: url(../images/backButton.png) 0 8 0 14;
+	border-width: 0 8px 0 14px;
+	color: #fff;
+	font: bold 12px/30px Helvetica;
+	height: 30px;
+	margin: 0;
+	max-width: 55px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	top: 7px;
+	right: auto;
+	left: 6px;
+	text-decoration: none;
+	text-overflow: ellipsis;
+	text-shadow: #2E3744 0 -1px 0;
+	white-space: nowrap;
+	width: auto;
+}
+
+
+/* Data List */
+#feed_ios ul.feed_list{
+	padding: 0;
+}
+
+#feed_ios .feed_list li:not(:last-child){
+	border-bottom: 1px solid #aaa;
+}
+
+#feed_ios .feed_list li > a{
+	color: black;
+	display: block;
+	font: bold 16px Helvetica;
+	overflow: hidden;
+	padding: 7px 54px 7px 3px;
+	white-space: nowrap;
+}
+
+#feed_ios .data li,
+#feed_ios .data p{
+	padding: 0;
+	margin: 0;
+}
+
+#feed_ios .data{
+	background: #fff;
+	border-radius: 5px;
+	margin: 10px;
+	padding: 5px;
+}
+
+
+/* Confirm dialog */
+#feed_ios .feed_confirm{
+	background: url(../images/confirm.png) no-repeat;
+	border-radius: 9px;
+	height: 107px;
+	left: 13px;
+	position: absolute;
+	top: 35%;
+	width: 225px;
+}
+
+#feed_ios .feed_confirm p{
+	position: absolute;
+	color: #fff;
+}
+
+#feed_ios .feed_confirm h4{
+    color: #fff;
+    font: bold 14px/44px Helvetica;
+    margin: 0;
+    text-align: center;
+}
+
+
+/* Settings screen */
+#feed_ios .feed_onoff{
+	background: url("../images/onoff.png?1") no-repeat scroll 97% center transparent;
+}
+
+
+/* Dock menu */
+#feed_ios .feed_dock p{
+	color: #fff;
+	position: absolute;
+	bottom: -10px;
+	font-size: 8px;
+	left: 2px;
+	width: 59px;
+	text-align: center;
+}
+
+
+/* FEED WRAPPER => CONTENT => IOS/ANDROID => TOOLS
+ -------------------------------------------------------------- */
+#feed_wrapper .feed_tools textarea{
+	vertical-align: middle;
+	width: 172px;
+}
+
+#feed_wrapper .feed_tools .button{
+	margin-bottom: 10px;
+}
+
+#feed_wrapper .feed_tools .button span{
+    display: inline-block;
+    text-align: right;
+    width: 120px;
+}
+
+#feed_wrapper .feed_tools > div{
+	display: none;
+}
+
+#feed_wrapper .feed_tools .feed_nav{
+	display: block !important;
+}
+
+/* SPRITE
+ -------------------------------------------------------------- */
+.feed_bug:before{height:14px;width:14px;}
+.feed_changelog:before{height:14px;width:14px;background-position:0 -14px;top:-0px; position:relative}
+.feed_donate:before{height:14px;width:20px;background-position:-14px -30px;}
+.feed_logout:before{height:14px;width:17px;background-position:-34px 0;}
+.feed_us:before{height:14px;width:14px;background-position:0 -28px;}
+.feed_logo{height:37px;width:123px;background-position:-44px 0;}
+
+
+.feed_sprite{
+	background-image:url(../images/sprite.png);
+	background-repeat:no-repeat;
+	display:block;
+	text-indent:-99999px;
+	overflow:hidden;
+}
+
+.feed_sprite_after:after,
+.feed_sprite_before:before{
+	background-image:url(../images/sprite.png);
+	background-repeat:no-repeat;
+	display:block;
+	text-indent:-99999px;
+	overflow:hidden;
+	content: ".";
+	float: left;
+}
+	
+	
+
+/* CLASSES
+ -------------------------------------------------------------- */
+.clearfix:after{
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.tooltip
+{
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  outline: none;
+  float:left;
+}
+
+.tooltip span
+{
+  visibility: hidden;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  z-index: 999;
+  width: 230px;
+  margin-left: -127px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  opacity: .9;
+  background-color: #ddd;
+  background-image: -webkit-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+  background-image: -moz-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+  background-image: -ms-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+  background-image: -o-linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+  background-image: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,0));
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+  box-shadow: 0 1px 2px rgba(0,0,0,.4), 0 1px 0 rgba(255,255,255,.5) inset;
+  text-shadow: 0 1px 0 rgba(255,255,255,.4);
+  text-align: left !important;
+}
+
+.tooltip:hover
+{
+  border: 0; /* IE6 fix */
+}
+
+.tooltip:hover span
+{
+  visibility: visible;
+}
+
+
+
+.feed_blockMessage{
+	display: none;
+}

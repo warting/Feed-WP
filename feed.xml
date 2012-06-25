@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed-nu>
+	<Android>
+		<Language>
+			<settings_title>
+				<Description></Description>
+				<Standard>Change settings</Standard>
+				<translations>
+					<sv_SE>Ändra inställningar</sv_SE>
+				</translations>
+			</settings_title>
+			<settings>
+				<Description></Description>
+				<Standard>Settings</Standard>
+				<translations>
+					<sv_SE>Inställningar</sv_SE>
+				</translations>
+			</settings>
+			<sync_now>
+				<Description></Description>
+				<Standard>Sync now</Standard>
+				<translations>
+					<sv_SE>Syncronisera nu</sv_SE>
+				</translations>
+			</sync_now>
+			<refresh_listview>
+				<Description></Description>
+				<Standard>Update list</Standard>
+				<translations>
+					<sv_SE>Uppdatera listan</sv_SE>
+				</translations>
+			</refresh_listview>
+			<reset_database>
+				<Description></Description>
+				<Standard>Clear database</Standard>
+				<translations>
+					<sv_SE>Rensa databasen</sv_SE>
+				</translations>
+			</reset_database>
+			<mark_all_as_read>
+				<Description></Description>
+				<Standard>Mark all as read</Standard>
+				<translations>
+					<sv_SE>Markera allt som läst</sv_SE>
+				</translations>
+			</mark_all_as_read>
+			<read_more>
+				<Description></Description>
+				<Standard>Read more</Standard>
+				<translations>
+					<sv_SE>Läs mer</sv_SE>
+				</translations>
+				<Description>Link in article view thats goes to the original article</Description>
+			</read_more>
+			<updatedialog>
+				<Description></Description>
+				<Standard>A new version of this blog is availible with minor updates. Please select download to upgrade from THIS_VERSION to NEXT_VERSION or press cancel</Standard>
+				<translations>
+					<sv_SE>En ny version av denna app finns tillgänglig. Tryck på ladda ner för att uppdatera från THIS_VERSION till NEXT_VERSION eller tryck på avbryt</sv_SE>
+				</translations>
+			</updatedialog>
+			<download>
+				<Description></Description>
+				<Standard>Download</Standard>
+				<translations>
+					<sv_SE>Ladda ner</sv_SE>
+				</translations>
+			</download>
+			<skip>
+				<Description></Description>
+				<Standard>Cancel</Standard>
+				<translations>
+					<sv_SE>Avbryt</sv_SE>
+				</translations>
+			</skip>
+			<exit>
+				<Description></Description>
+				<Standard>Close</Standard>
+				<translations>
+					<sv_SE>Stäng</sv_SE>
+				</translations>
+			</exit>
+			<feedDescription>
+				<Description></Description>
+				<Standard>Hi and welcome!
+
+To start reading press the Start reading button.</Standard>
+				<translations>
+					<sv_SE>Hej och välkommen!\n\nFör att börja läsa tryck på &quot;Börja läsa&quot; knappen.</sv_SE>
+				</translations>
+			</feedDescription>
+			<app_name>
+				<Standard>Application title</Standard>
+				<translations>
+					<sv_SE>Appens titel</sv_SE>
+				</translations>
+				<Description>Application title shows under the icon and when installing</Description>
+			</app_name>
+			<start_reading>
+				<Description></Description>
+				<Standard>Start reading</Standard>
+				<translations>
+					<sv_SE>Börja läsa</sv_SE>
+				</translations>
+			</start_reading>
+			<splash_loading>
+				<Description></Description>
+				<Standard>Loading...</Standard>
+			</splash_loading>
+			<new_items>
+				<Description></Description>
+				<Standard>NUMBERS_OF new posts</Standard>
+				<translations>
+					<sv_SE>NUMBERS_OF nya poster</sv_SE>
+				</translations>
+			</new_items>
+			<no_unread_items>
+				<Description></Description>
+				<Standard>No unread posts</Standard>
+				<translations>
+					<sv_SE>Inga olästa meddelanden</sv_SE>
+				</translations>
+			</no_unread_items>
+			<share>
+				<Description></Description>
+				<Standard>Share</Standard>
+				<translations>
+					<sv_SE>Dela</sv_SE>
+				</translations>
+			</share>
+			<share_title>
+				<Description></Description>
+				<Standard>POST_TITLE</Standard>
+				<translations>
+					<sv_SE>POST_TITLE</sv_SE>
+				</translations>
+				<Description>The title when sharing. Dynamic field: POST_TITLE</Description>
+			</share_title>
+			<share_message>
+				<Description></Description>
+				<Standard>LINK_URL</Standard>
+				<translations>
+					<sv_SE>LINK_URL</sv_SE>
+				</translations>
+				<Description>Message when sharing. Dynamic field: LINK_URL</Description>
+			</share_message>
+			<menu_about>
+				<Description></Description>
+				<Standard>About</Standard>
+				<translations>
+					<sv_SE>Om</sv_SE>
+				</translations>
+				<Description>About button in menu</Description>
+			</menu_about>
+			<about_app_title>
+				<Description></Description>
+				<Standard>About APPLICATION_TITLE</Standard>
+				<translations>
+					<sv_SE>om APPLICATION_TITLE</sv_SE>
+				</translations>
+				<Description>Title in about box. Dynamic value: APPLICATION_TITLE</Description>
+			</about_app_title>
+			<version_number>
+				<Description></Description>
+				<Standard>Version: VERSION_NUMBER</Standard>
+				<translations>
+					<sv_SE>VERSION_NUMBER</sv_SE>
+				</translations>
+				<Description>The version number. Dynamic value: VERSION_NUMBER</Description>
+			</version_number>
+			<about_text>
+				<Description></Description>
+				<Standard></Standard>
+				<translations>
+					<sv_SE></sv_SE>
+				</translations>
+				<Description>A short Description about your application</Description>
+			</about_text>
+			<no_items_at_all>
+				<Description></Description>
+				<Standard>There are no unread posts yet, hit menu and select update now or goto settings and enable Auto Sync</Standard>
+				<translations>
+					<sv_SE>Det finns inga olästa poster ännu, tryck meny och välj updatera nu eller gå till inställningar och automatiskt synkronisering</sv_SE>
+				</translations>
+			</no_items_at_all>
+			<setting_summary_autoupdate>
+				<Description></Description>
+				<Standard>Turn on/off auto updates</Standard>
+				<translations>
+					<sv_SE>Sätt på/av automatiska updateringar</sv_SE>
+				</translations>
+			</setting_summary_autoupdate>
+			<setting_title_autoupdate>
+				<Description></Description>
+				<Standard>Update automatically</Standard>
+				<translations>
+					<sv_SE>Updatera automatiskt</sv_SE>
+				</translations>
+			</setting_title_autoupdate>
+			<setting_summary_updateinterval>
+				<Description></Description>
+				<Standard>Change update interval</Standard>
+				<translations>
+					<sv_SE>Ändra updaterings intervall</sv_SE>
+				</translations>
+			</setting_summary_updateinterval>
+			<setting_title_updateinterval>
+				<Description></Description>
+				<Standard>Update interval</Standard>
+				<translations>
+					<sv_SE>updaterings intervall</sv_SE>
+				</translations>
+			</setting_title_updateinterval>
+			<setting_summary_hideread>
+				<Description></Description>
+				<Standard>Check to hide read items</Standard>
+				<translations>
+					<sv_SE>Markera för att gömma lästa poster</sv_SE>
+				</translations>
+			</setting_summary_hideread>
+			<setting_title_hideread>
+				<Description></Description>
+				<Standard>Hide read items</Standard>
+				<translations>
+					<sv_SE>Göm lästa poster</sv_SE>
+				</translations>
+			</setting_title_hideread>
+			<setting_summary_debugmode>
+				<Description></Description>
+				<Standard>Run in debugmode</Standard>
+				<translations>
+					<sv_SE>Kör i debug läge</sv_SE>
+				</translations>
+			</setting_summary_debugmode>
+			<setting_title_debugmode>
+				<Description></Description>
+				<Standard>Debug mode</Standard>
+				<translations>
+					<sv_SE>Debug läge</sv_SE>
+				</translations>
+			</setting_title_debugmode>
+			<first_time_settings>
+				<Description></Description>
+				<Standard>Setting up application for the first time</Standard>
+				<translations>
+					<sv_SE>Ställer in applikationen för första gången</sv_SE>
+				</translations>
+				<Description>Text in popup when running the application for the first time
+				</Description>
+			</first_time_settings>
+			<pregress_dialog_message>
+				<Description></Description>
+				<Standard>synchronizing...</Standard>
+				<translations>
+					<sv_SE>Synkroniserar...</sv_SE>
+				</translations>
+				<Description>Text when progress dialog is displayed</Description>
+			</pregress_dialog_message>
+		</Language>
+		<Image>
+			<icon>
+				<Description>Icon for application. Recommended size: 36x36, 48x48 or 72x72
+				</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/icon.png</Standard>
+			</icon>
+			<is_read_icon>
+				<Description>Icon to display in article list when article is read.
+					Recommended size: 48x48px.</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/is_read_icon.png</Standard>
+			</is_read_icon>
+			<item_icon>
+				<Description>Icon to display in article list when article is unread.
+					Recommended size: 48x48px.</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/item_icon.png</Standard>
+			</item_icon>
+			<mybtn_focus>
+				<Description>9-scale grid image button
+					&lt;strong&gt;(focus)&lt;/strong&gt;. Please read: &lt;a
+					href=&quot;http://feed.nu/nine-grid-scaleable-image/&quot;
+					target=&quot;_blank&quot;&gt;About 9-scale grid image&lt;/a&gt;
+				</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/mybtn_focus.9.png</Standard>
+			</mybtn_focus>
+			<mybtn_normal>
+				<Description>9-scale grid image button
+					&lt;strong&gt;(normal)&lt;/strong&gt;. Please read: &lt;a
+					href=&quot;http://feed.nu/nine-grid-scaleable-image/&quot;
+					target=&quot;_blank&quot;&gt;About 9-scale grid image&lt;/a&gt;
+				</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/mybtn_normal.9.png</Standard>
+			</mybtn_normal>
+			<mybtn_pressed>
+				<Description>9-scale grid image button
+					&lt;strong&gt;(pressed)&lt;/strong&gt;. Please read: &lt;a
+					href=&quot;http://feed.nu/nine-grid-scaleable-image/&quot;
+					target=&quot;_blank&quot;&gt;About 9-scale grid image&lt;/a&gt;
+				</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/mybtn_pressed.9.png</Standard>
+			</mybtn_pressed>
+			<top_image_description>
+				<Description>Header image to display in article view</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/top_image_description.png</Standard>
+			</top_image_description>
+			<top_image_listview>
+				<Description>Header image to display in article list view</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/top_image_listview.png</Standard>
+			</top_image_listview>
+			<top_image_start>
+				<Description>Header image to display in start view</Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/top_image_start.png</Standard>
+			</top_image_start>
+		</Image>
+		<Color>
+			<border>
+				<Description>Border color, click to edit</Description>
+				<Standard>CCCCCC</Standard>
+			</border>
+			<background>
+				<Description>Background color, click to edit</Description>
+				<Standard>E5E5E5</Standard>
+			</background>
+			<listbackground>
+				<Description>List color, click to edit</Description>
+				<Standard>FFFFFF</Standard>
+			</listbackground>
+			<text>
+				<Description>Text color, click to edit</Description>
+				<Standard>323331</Standard>
+			</text>
+			<buttonBackground>
+				<Description>Button color, click to edit</Description>
+				<Standard>FFFFFF</Standard>
+			</buttonBackground>
+			<admobBackgroundColor>
+				<Description></Description>
+				<Standard>000000</Standard>
+			</admobBackgroundColor>
+			<admobPrimaryTextColor>
+				<Description></Description>
+				<Standard>FFFFFF</Standard>
+			</admobPrimaryTextColor>
+			<admobSecondaryTextColor>
+				<Description></Description>
+				<Standard>cccccc</Standard>
+			</admobSecondaryTextColor>
+		</Color>
+		<General>
+			<packagename>
+			<Standard></Standard>
+			<Description>This is your unique package name. when moving from feed.nu to self hosted plugin you might have to THIS TO SOMETHING LIKE: wis_olddomain_feed_nu</Description>
+			</packagename>
+			<apphost>
+				<Description>If you are planing to upload the app to android market,
+					select "Android market" (automaticly update of app will be
+					disabled)
+				</Description>
+				<Standard>feed</Standard>
+				<options>
+					<option><value>feed</value><Description>Self hosted</Description></option>
+					<option><value>market</value><Description>Android market</Description></option>
+				</options>
+			</apphost>
+			<view_after_loading>
+				<Description>Screen after the app has loaded</Description>
+				<Standard>welcome</Standard>
+				<options>
+					<option><value>welcome</value><Description>Welcome screen</Description></option>
+					<option><value>postslist</value><Description>Post list</Description></option>
+				</options>
+			</view_after_loading>
+			
+			<text_direction>
+				<Description>(Choose if the text direction is going to be "left to
+					right" or "right to left")</Description>
+				<Standard>ltr</Standard>
+				<options>
+					<option><value>rtl</value><Description>Right to left</Description></option>
+					<option><value>ltr</value><Description>Left to right</Description></option>
+				</options>
+			</text_direction>
+			<ArticleCSS>
+				<Description>Article view CSS code, be carefull</Description>
+				<Standard>#container {}
+#header {}
+#header strong {}
+#header
+#date
+#story {}
+#footer {}
+#footer a{}</Standard>
+			</ArticleCSS>
+			<ArticleExtraHeader>
+				<Description>Use this fields if want to put in some extra headers
+					like
+					javascript, jQuery is already loaded.</Description>
+				<Standard></Standard>
+			</ArticleExtraHeader>
+		</General>
+	</Android>
+	<ios>
+		<Language>
+			<app_name>
+				<Standard>My Blogg</Standard>
+				<translation>
+					<sv_SE>Min Blog</sv_SE>
+				</translation>
+			</app_name>
+			<description>
+				<Standard>Welcome Description</Standard>
+				<translation>
+					<sv_SE>välkommen</sv_SE>
+				</translation>
+			</description>
+			<start_reading>
+				<Standard>Start reading</Standard>
+				<translation>
+					<sv_SE>Börja läs</sv_SE>
+				</translation>
+			</start_reading>
+			<dock_home>
+				<Standard>Home</Standard>
+				<translation>
+					<sv_SE>Hem</sv_SE>
+				</translation>
+			</dock_home>
+			<dock_article>
+				<Standard>Articles</Standard>
+				<translation>
+					<sv_SE>Artiklar</sv_SE>
+				</translation>
+			</dock_article>
+			<dock_about>
+				<Standard>About</Standard>
+				<translation>
+					<sv_SE>Om</sv_SE>
+				</translation>
+			</dock_about>
+			<dock_setting>
+				<Standard>Settings</Standard>
+				<translation>
+					<sv_SE>Inställningar</sv_SE>
+				</translation>
+			</dock_setting>
+			<back>
+				<Standard>Back</Standard>
+				<translation>
+					<sv_SE>Backa</sv_SE>
+				</translation>
+			</back>
+			<about_header>
+				<Standard>About</Standard>
+				<translation>
+					<sv_SE>Om</sv_SE>
+				</translation>
+			</about_header>
+			<about_title>
+				<Standard>About my app</Standard>
+				<translation>
+					<sv_SE>Om min app</sv_SE>
+				</translation>
+			</about_title>
+			<about_text>
+				<Standard>Figure someting out</Standard>
+				<translation>
+					<sv_SE>här är lite desc om appen</sv_SE>
+				</translation>
+			</about_text>
+			<setting_header>
+				<Standard>Settings</Standard>
+				<translation>
+					<sv_SE>Inställningar</sv_SE>
+				</translation>
+			</setting_header>
+			<hide_read>
+				<Standard>Hide read post</Standard>
+				<translation>
+					<sv_SE>Göm lästa poster</sv_SE>
+				</translation>
+			</hide_read>
+			<clear_db>
+				<Standard>Clear database</Standard>
+				<translation>
+					<sv_SE>Rensa databasen</sv_SE>
+				</translation>
+			</clear_db>
+			<reset_app>
+				<Standard>Reset app</Standard>
+				<translation>
+					<sv_SE>Återställ appen</sv_SE>
+				</translation>
+			</reset_app>
+			<confirm_title>
+				<Standard>Confirm</Standard>
+				<translation>
+					<sv_SE>bekräfta</sv_SE>
+				</translation>
+			</confirm_title>
+			<sure_text>
+				<Standard>Are you sure</Standard>
+				<translation>
+					<sv_SE>Är du säker?</sv_SE>
+				</translation>
+			</sure_text>
+			<yes>
+				<Standard>Yes</Standard>
+				<translation>
+					<sv_SE>Ja</sv_SE>
+				</translation>
+			</yes>
+			<no>
+				<Standard>No</Standard>
+				<translation>
+					<sv_SE>No</sv_SE>
+				</translation>
+			</no>
+		</Language>
+		<Image>
+			<app_icon>
+				<Description></Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/icon.png</Standard>
+			</app_icon>
+			<header_image>
+				<Description></Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/top_image_description.png</Standard>
+			</header_image>
+			<unread_icon>
+				<Description></Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/item_icon.png</Standard>
+			</unread_icon>
+			<read_icon>
+				<Description></Description>
+				<Standard>/wp-content/plugins/feed-nu/images/default_images/is_read_icon.png</Standard>
+			</read_icon>
+		</Image>
+	</ios>
+	<Global>
+		<feedhost>
+				<Description>Where to pull your rss feed from (seperate by each line)</Description>
+				<Standard></Standard>
+		</feedhost>
+		<update_apps>
+			<Description></Description>
+			<Standard>1</Standard>
+			<options>
+				<option><value>1</value><Description>Yes</Description></option>
+				<option><value>0</value><Description>No</Description></option>
+			</options>
+		</update_apps>
+		<app_date_format>
+				<Description></Description>
+				<Standard>yyyy-MM-dd kk:mm</Standard>
+				<options>
+					<option><value></value><Description>Empty</Description></option>
+					<option><value>yyyy-MM-dd kk:mm</value><Description>1970-04-06 03:23</Description></option>
+					<option><value>MM/dd/yy h:mmaa</value><Description>04/06/70 3:23am</Description></option>
+					<option><value>MMM dd, yyyy h:mmaa</value><Description>Apr 6, 1970 3:23am</Description></option>
+					<option><value>MMMM dd, yyyy h:mmaa</value><Description>April 6, 1970 3:23am</Description></option>
+					<option><value>E, MMMM dd, yyyy h:mmaa</value><Description>Mon, April 6, 1970 3:23am</Description></option>
+					<option><value>EEEE, MMMM dd, yyyy h:mmaa</value><Description>Monday, April 6, 1970 3:23am</Description></option>
+					<option><value>custum</value><Description>Custum:</Description></option>
+				</options>
+			</app_date_format>
+			<custom_date>
+				<Description>
+			<![CDATA[For more information about date formating <a href="http://feed.nu/date-format/" target="_blank">click here</a>]]>
+				</Description>
+				<Standard>yyyy-MM-dd kk:mm</Standard>
+			</custom_date>
+	</Global>
+</feed-nu>
